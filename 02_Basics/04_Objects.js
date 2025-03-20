@@ -31,11 +31,11 @@ const client = {
 
 // console.log(client.address.WorkPlaceAddr.company_name); //nested object 
 
-// const obj1 = {1:"a", 2:"b"};
-// const obj2 = {3:"c", 4:"d"};
-// // const obj3 = Object.assign({}, obj1, obj2, obj3, obj4) //good practice to add {} -> Object.assign(target, source) so here {} act as target where everything will get copied correctly
-// const obj3 = {...obj1, ...obj2};
-// console.log(obj3);
+const obj1 = {1:"a", 2:"b"};
+const obj2 = {3:"c", 4:"d"};
+// const obj3 = Object.assign({}, obj1, obj2, obj3, obj4) //good practice to add {} -> Object.assign(target, source) so here {} act as target where everything will get copied correctly
+const obj3 = {...obj1, ...obj2};
+console.log(obj3);
 
 
 //arrays of objects
